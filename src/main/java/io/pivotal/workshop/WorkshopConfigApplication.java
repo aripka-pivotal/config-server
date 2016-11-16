@@ -6,9 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class FortuneConfigApplication {
+public class WorkshopConfigApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FortuneConfigApplication.class, args);
+		SpringApplication.run(WorkshopConfigApplication.class, args);
 	}
 }
